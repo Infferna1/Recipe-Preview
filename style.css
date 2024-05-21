@@ -82,9 +82,14 @@ h3 {
     font-weight: 600;
 }
 
-p {
+p, span {
     font-size: 16px;
     font-family: "Outfit", sans-serif;
+    color: hsl(30, 10%, 34%);
+}
+
+span {
+    font-weight: 600;
 }
 
 .prep {
@@ -93,4 +98,6 @@ p {
 
 .prep li::marker {
     color: hsl(332, 51%, 32%);
+    font-size: 12px;
+    line-height: 0.1;
 }
