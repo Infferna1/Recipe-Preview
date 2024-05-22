@@ -43,7 +43,7 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  margin-top: 5%;
+  margin-top: 2%;
   margin-left: 24%;
   margin-right: 24%;
 }
@@ -58,6 +58,14 @@ main {
 
 img {
   border-radius: 10px;
+}
+
+/* =======FONTS======= */
+
+h1,
+h2,
+h3 {
+  padding-bottom: 10px;
 }
 
 h1,
@@ -85,6 +93,10 @@ h3 {
   font-weight: 600;
 }
 
+h3 {
+  padding-left: 5px;
+}
+
 p,
 span {
   font-size: 16px;
@@ -96,12 +108,21 @@ span {
   font-weight: 600;
 }
 
+/* =======LISTS======= */
+
 .prep {
   background-color: hsl(330, 100%, 98%);
+  padding-top: 15px;
+  padding-right: 15px;
+  padding-left: 15px;
+  border-radius: 10px;
+  margin: 0 5px 0 5px;
 }
 
 li {
   list-style-position: outside;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 li::marker {
@@ -114,8 +135,9 @@ li::marker {
   padding-left: 25px;
 }
 
-ul, ol {
-  padding-left: 15px;
+ul,
+ol {
+  padding-left: 20px;
 }
 
 .instructions li::marker {
@@ -124,7 +146,16 @@ ul, ol {
   font-family: "Outfit", sans-serif;
 }
 
+li > p {
+  padding-left: 15px;
+}
+
 article,
 section {
-  padding-bottom: 15px;
+  padding: 15px 0 15px 0;
+  margin: 15px 0 15px 0;
+}
+
+hr {
+  border-top: 1px solid red;
 }
