@@ -51,7 +51,7 @@ body {
 main {
   background-color: hsl(0, 0%, 100%);
   border-radius: 15px;
-  padding: 30px;
+  padding: 35px;
   display: flex;
   flex-direction: column;
 }
@@ -108,6 +108,20 @@ li::marker {
   color: hsl(332, 51%, 32%);
   font-size: 12px;
   line-height: 0.1;
+}
+
+.prep ul {
+  padding-left: 25px;
+}
+
+ul, ol {
+  padding-left: 15px;
+}
+
+.instructions li::marker {
+  font-size: 14px;
+  font-weight: 600;
+  font-family: "Outfit", sans-serif;
 }
 
 article,
