@@ -98,7 +98,7 @@ h3 {
 }
 
 p,
-span {
+span, td {
   font-size: 16px;
   font-family: "Outfit", sans-serif;
   color: hsl(30, 10%, 34%);
@@ -157,5 +157,23 @@ section {
 }
 
 hr {
-  border-top: 1px solid red;
+  border-top: 1px solid hsl(30, 18%, 87%);
+}
+
+table {
+  width: 100%
+}
+
+/* tr > td {
+  font-size: 16px;
+  font-family: "Outfit", sans-serif;
+  color: hsl(30, 10%, 34%);
+} */
+
+td > span {
+  color: hsl(14, 45%, 36%);
+}
+
+.firstLine {
+  border-bottom: 1px solid black;
 }
