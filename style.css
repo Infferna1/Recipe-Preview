@@ -150,7 +150,10 @@ li > p {
   padding-left: 15px;
 }
 
-article,
+article {
+  padding-bottom: 15px;
+}
+
 section {
   padding: 15px 0 15px 0;
   margin: 15px 0 15px 0;
@@ -161,19 +164,26 @@ hr {
 }
 
 table {
-  width: 100%
+  width: 100%;
+  border-collapse: collapse;
 }
 
-/* tr > td {
-  font-size: 16px;
-  font-family: "Outfit", sans-serif;
-  color: hsl(30, 10%, 34%);
-} */
+.firstLine {
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+.secondLine {
+  border-bottom: 1px solid hsla(30, 18%, 87%, 0.6);
+}
+
+.thirdLine {
+  border-bottom: 1px solid hsl(30, 18%, 87%, 0.4);
+}
 
 td > span {
   color: hsl(14, 45%, 36%);
 }
 
-.firstLine {
-  border-bottom: 1px solid black;
+td {
+  padding-left: 25px;
 }
