@@ -205,8 +205,17 @@ td {
   font-family: "Outfit", sans-serif;
   text-align: center;
 }
+
 .attribution a {
   color: hsl(332, 51%, 32%);;
   font-weight: 600;
   text-decoration: none;
+}
+
+/* =======MOBILE======= */
+
+@media (max-width: 375px) {
+  p {
+    color: purple;
+  }
 }
