@@ -82,7 +82,7 @@ h1 {
 
 h2 {
   font-size: 20px;
-  font-weight: 400;
+  font-weight: 600;
   color: hsl(14, 45%, 36%);
 }
 
@@ -215,7 +215,30 @@ td {
 /* =======MOBILE======= */
 
 @media (max-width: 375px) {
-  p {
-    color: purple;
+  body {
+    margin: 0;
+  }
+
+  main {
+    border-radius: 0px;
+    padding: 0px;
+  }
+
+  article > h1, p {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  section {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  img {
+    border-radius: 0px;
+  }
+
+  .prep {
+    margin: 10px 25px 0 25px;
   }
 }
